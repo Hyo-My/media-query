@@ -39,6 +39,14 @@ main p {
     display: none;
 }
 
+main > div > p  {
+    display: block;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: medium;
+}
+
 img {
     display: block;
     margin: auto;

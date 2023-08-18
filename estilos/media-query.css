@@ -41,6 +41,10 @@ Grandes Telas: Acima De 1200px
         padding: 10px 0px;
     }
 
+    main > div > p  {
+        display: none;
+    }
+
     main::after {
         content: 'By Murilinho W.w';
         font-size: small;
@@ -73,6 +77,11 @@ Grandes Telas: Acima De 1200px
 
     main p {
         display: none;
+    }
+
+    main > div > p  {
+        color: black;
+        text-shadow: 2px 2px 2px white;
     }
 }
 
@@ -115,5 +124,10 @@ Grandes Telas: Acima De 1200px
 
     main p {
         display: none;
+    }
+
+    main > div > p  {
+        color: black;
+        text-shadow: 2px 2px 2px white;
     }
 }
