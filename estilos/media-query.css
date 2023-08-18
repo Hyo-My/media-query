@@ -41,7 +41,7 @@ Grandes Telas: Acima De 1200px
         padding: 10px 0px;
     }
 
-    main > div > p  {
+    main > div p  {
         display: none;
     }
 
