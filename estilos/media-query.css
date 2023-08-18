@@ -13,7 +13,7 @@ Grandes Telas: Acima De 1200px
 
 
 @media print {
-    
+
     * {
     font-family: 'Courier New', Courier, monospace;
     }
@@ -36,7 +36,6 @@ Grandes Telas: Acima De 1200px
         display: block;
         text-align: justify;
         font-size: large;
-
         text-indent: 20px;
         line-height: 30px;
         padding: 10px 0px;
@@ -71,6 +70,10 @@ Grandes Telas: Acima De 1200px
     main {
         background-color: rgba(173, 216, 230, 0.76);
     }
+
+    main p {
+        display: none;
+    }
 }
 
 
@@ -88,6 +91,10 @@ Grandes Telas: Acima De 1200px
     main {
         background-color: rgba(192, 0, 192, 0.755);
     }
+
+    main p {
+        display: none;
+    }
 }
 
 
@@ -104,5 +111,9 @@ Grandes Telas: Acima De 1200px
 
     main {
         background-color: rgba(255, 255, 255, 0.665);
+    }
+
+    main p {
+        display: none;
     }
 }
