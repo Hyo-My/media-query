@@ -1,2 +1,2 @@
 # media-query
-Aprendendo / Testando Media Query
+Aprendendo / Testando Media Queries :D
