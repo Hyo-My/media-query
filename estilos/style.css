@@ -35,6 +35,10 @@ main h1 {
     text-shadow: 2px 2px 2px black;
 }
 
+main p {
+    display: none;
+}
+
 img {
     display: block;
     margin: auto;

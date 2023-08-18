@@ -13,7 +13,7 @@ Grandes Telas: Acima De 1200px
 
 
 @media print {
-
+    
     * {
     font-family: 'Courier New', Courier, monospace;
     }
@@ -31,9 +31,22 @@ Grandes Telas: Acima De 1200px
         text-shadow: none;
         color: black;        
     }
+
+    main p {
+        display: block;
+        text-align: justify;
+        font-size: large;
+
+        text-indent: 20px;
+        line-height: 30px;
+        padding: 10px 0px;
+    }
+
     main::after {
         content: 'By Murilinho W.w';
         font-size: small;
+
+        margin-top: 20px;
     }
 
     img#phone { display: none; }
@@ -48,6 +61,7 @@ Grandes Telas: Acima De 1200px
         background-image: url(../images/back-tablet.jpg);
         background-repeat: no-repeat;
     }
+
     img#phone { display: none; }
     img#tablet { display: block; }
     img#print { display: none; }
@@ -64,6 +78,7 @@ Grandes Telas: Acima De 1200px
     body {
         background-image: url(../images/back-pc.jpg);
     }
+
     img#phone { display: none; }
     img#tablet { display: none; }
     img#print { display: none; }
@@ -80,6 +95,7 @@ Grandes Telas: Acima De 1200px
     body {
         background-image: url(../images/back-tv.jpg);
     }
+
     img#phone { display: none; }
     img#tablet { display: none; }
     img#print { display: none; }
